@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- bootstrap css -->
+<link rel="stylesheet" type="text/css" href="components/bootstrap/dist/css/bootstrap.min.css">
+
+<!-- fontawesome -->
+<link rel="stylesheet" type="text/css" href="components/font-awesome/css/font-awesome.min.css">
+
+<!-- custom css -->
+
+<link rel="stylesheet" type="text/css" href="css/custom.css">
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+<!-- jquery -->
+
+<script type="text/javascript" src="components/jquery/dist/jquery.min.js"></script>
+
+<!-- bootstrap js -->
+
+<script type="text/javascript" src="components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<title></title>
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><img src="images/harambesa2.png" height="40"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+           
+                <ul class="nav navbar-nav">
+
+                    
+                </ul>
+               
+
+
+            <ul class="nav navbar-nav navbar-right">
+           
+            <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-expanded="false">Money Offers <span class="caret"></span> </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/money-offer/all-mine">Mine</a></li>
+                            <li><a href="/money-offer/all-others">Others</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-expanded="false">Material Offers <span class="caret"></span> </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/material-offer/all-mine">Mine</a></li>
+                            <li><a href="/material-offer/all-others">Others</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-expanded="false">Service Offers <span class="caret"></span> </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/service-offer/all-mine">Mine</a></li>
+                            <li><a href="/service-offer/all-others">Others</a></li>
+                        </ul>
+
+                   
+                    
+
+               
+                    <li><a href="/users/signupform">Signup</a></li>
+                    <li><a href="/users/loginform">Login</a></li>
+               
+               
+                   
+               
+            </ul>
+            
+        </div>
+    </div>
+</div>
+
+<div class="row" id="content">
+
+<div class="col-md-offset-4 col-md-4 col-sm-12">
+<div class="panel" id="loginpanel">
+<div class="panel-body">
+<h1 align="center" id="blue">Login <span class="fa fa-lock fa-fw"></span></h1>
+<hr class="intro-divider" style="width:40%;"/>
+
+<div class="row" id="loginformrow">
+<div class="col-md-offset-1 col-md-10">
+
+
+    <form class="form-signin" role="form" action="/users/login" method="post">
+
+
+        <div class="form-group">
+        
+        <input type="text" name="username" class="form-control" placeholder="Username" required
+               autofocus /> 
+        </div>
+        <div class="form-group">
+        <input type="password" name="password" class="form-control" placeholder="Password" required />
+        </div>
+
+        <div class="form-group">
+        <div class="row">
+        <div class="col-md-offset-2">
+        <label class="checkbox">
+            <input type="checkbox" checked="checked" name="remember-me"><p>Remember me</p>
+        </label>
+        </div>
+        </div>
+        </div>
+       <div class="form-group">
+       
+        <button class="btn btn-lg btn-success btn-block" type="submit">Login</button>
+         <p></p>
+         <h5>Dont have an Account?Simply <a href="../users/signupform">Sign Up</a></h5>
+        </div>
+    </form>
+
+    </div>
+    </div>
+
+    </div>
+ </div>
+ </div>
+
+</div>
+</body>
+</html>

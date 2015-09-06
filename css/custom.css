@@ -1,0 +1,72 @@
+.navbar-fixed-top {
+    border: 0;
+    margin-bottom: 0px;
+   
+    background-color:#FFF;
+    
+    padding-top:15px;
+     padding-bottom:15px;
+     border-style: solid;
+     border-width: 2px;
+     border-bottom-color:#00aff0;
+
+}
+.navbar-inverse .navbar-nav > li > a {
+
+color:#00aff0;
+
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+
+color:#A5D039;
+
+
+}
+
+.navbar-brand{
+   padding-top: 0px;
+}
+
+body{
+ /* background:url('../images/white.png'); */
+
+  background-color: #f4f4f4;
+  font-family: 'Open Sans', sans-serif;
+ 
+
+ 
+}
+
+#content{
+	margin-top:10%;
+}
+
+#cmimage{
+	padding-top: 5%;
+}
+
+#loginpanel,#signuppanel{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#blue{
+	color:#00aff0;
+
+}
+
+#green{
+	color:#A5D039;
+}
+
+#personal{
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+#select{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
