@@ -79,7 +79,7 @@ body{
 }
 
 #intro-message h2{
-  font-size: 70px;
+  font-size: 40px;
   font-weight: 700;
   color:#A5D039;
 }
@@ -113,4 +113,24 @@ body{
 footer .footer-above {
     padding-top: 15px;
     
+}
+
+/* media queries */
+
+@media(max-width:420px){
+
+  #intro-message{
+  padding-top:15%;
+ 
+  padding-bottom: 10%;
+  margin-bottom: 0px;
+
+}
+
+  #intro-message h2{
+  font-size:30px;
+  font-weight:auto;
+  
+}
+
 }
