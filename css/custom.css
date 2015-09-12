@@ -1,13 +1,15 @@
 
 .wrapper {
    
-    height: auto !important;
-    height: 100%;
-    margin: 0 auto -200px;
+   min-height: 100%;
+  height: auto !important;
+  height: 100%;
+ 
+  margin: 0 auto -200px;
 }
 
 .push{
-  height:200px;
+  
 }
 
 .navbar-fixed-top {
@@ -16,10 +18,10 @@
    
     background-color:#FFF;
     
-    padding-top:15px;
+     padding-top:15px;
      padding-bottom:15px;
      border-style: solid;
-     border-width: 2px;
+     border-bottom-width: 2px;
      border-bottom-color:#00aff0;
 
 }
@@ -39,23 +41,32 @@ color:#A5D039;
    padding-top: 0px;
 }
 
+#myintro{
+  padding-top: 6%;
+  margin-right: 0px;
+  margin-left: 0px;
+  
+}
+
 body{
  /* background:url('../images/white.png'); */
 
   background-color: #f4f4f4;
   font-family: 'Open Sans', sans-serif;
-   max-height:100%;
+   height: 100%;
 
  
 }
 html{
-  height:100%;
+   height: 100%;
 }
 
 #content{
-	margin-top:10%;
-  padding-top:5%;
-  padding-bottom:15%;
+	margin-top:7%;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+
+ 
 }
 
 #cmimage{
@@ -63,7 +74,7 @@ html{
 }
 
 #loginpanel,#signuppanel{
-	padding-top: 15px;
+	padding-top:1%;
 	padding-bottom: 15px;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -93,13 +104,13 @@ html{
 }
 
 #intro{
-  padding-bottom:0px;
+  padding-bottom:1%;
 }
 
 #intro-message{
   padding-top:5%;
   text-align: center;
-  padding-bottom:5%;
+  padding-bottom:2%;
 
 }
 
@@ -133,9 +144,10 @@ html{
 #myfooter{
   background-color:#00aff0;
   color:#FFF;
-  height: :200px;
-  padding-top: 5%;
-  padding-bottom:5%;
+  height: :150px;
+  padding-top: 1%;
+  padding-bottom: 3.9%;
+  
 
 }
 
@@ -178,6 +190,20 @@ footer .footer-above {
   padding-bottom:3%;
 }
 
+#myintro{
+  margin-bottom: 3%;
+}
+
+
+}
+@media(max-width:360px){
+
+.wrapper {
+    margin: 0px auto -60px;
+}
+#loginpanel, #signuppanel {
+   margin-top: 19%;
+}
 }
 
 @media(max-width:1024px){
